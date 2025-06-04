@@ -1,0 +1,47 @@
+.bar {
+border: 1px solid gray;
+border-radius: 5px;
+background-color: rgb(98, 138, 98);
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+text-align: center;
+}
+
+.container {
+flex: content;
+text-align: center;
+justify-content: center;
+}
+
+.card {
+border: 3px double maroon;
+border-radius: 5px;
+background-color: coral;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+text-align: center;
+width: 500px;
+align-items: center;
+margin: auto;
+height: 600;
+}
+
+button {
+border-radius: 5px;
+background-color: #4cffb780;
+}
+
+input {
+border-bottom-left-radius: 12px;
+border-top-right-radius: 12px;
+}
+
+::placeholder{
+color: default;    
+}
+
+.card_info {
+border: 5px double black;
+}
+
+.cell {
+background-color: maroon;
+}
